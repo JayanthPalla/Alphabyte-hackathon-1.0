@@ -1,0 +1,78 @@
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.hire_apply a{
+	text-decoration: none;
+	color: black;
+}
+
+.hire_apply{
+	display:grid;
+	grid-gap:100px;
+	grid-template-columns:360px 360px ;
+	grid-template-rows:360px;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.maintable{
+	margin:auto;
+	height:200px;
+	width:360px;
+	background-color:white;
+	border-radius:10px;
+}
+
+.formdiv{
+	margin:auto;
+	height:560px;
+	width:450px;
+	background-color:white;
+	border-radius:40px;
+	margin-top: 50px;
+}
+
+
+.maintable:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+/* If you want a cursor pointer on hover */
+.maintable:hover {
+    cursor: pointer;
+}
+
+.formdiv2{
+	justify-content: center;
+	margin-left: 50px;
+}
+
+.title{
+	position:center;
+	justify-content: center;
+	font-size:100px;
+	margin-top:80px;
+	padding:20px;
+}
+
+
+
+.form-group{
+	margin-top: 30px;
+}
+h4{
+	font-size: 50px;
+	font-family: sans-serif;
+
+}
+
+.title p{
+	margin-top: 60px;
+	font-size: 20px;
+}
+
+
